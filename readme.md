@@ -1,42 +1,9 @@
-# angular2-oauth2
+Work in progress...
 
-Support for OAuth 2 and OpenId Connect (OIDC) for Angular 2.
+Based on the lib by manfred steyer
+https://github.com/manfredsteyer/angular2-oauth2
 
-
-# IMORTANT
-
-This is an old version of this library. You can find the new one here:
-
-- https://github.com/manfredsteyer/angular-oauth2-oidc
-- https://www.npmjs.com/package/angular-oauth2-oidc
-
-## Router
-
-Successfully tested with the Angular 2 (RC) Component Router, PathLocationStrategy and CommonJS-Bundling via webpack.
-
-## Features
-
-- Logging in via OAuth2 and OpenId Connect (OIDC)
-- Using OIDC is optional
-- Validating claims of the id_token regarding the specs (aud, iss, nbf, exp, at_hash)
-- Hook for validating the signature of the received id_token
-- Single-Sign-Out by redirecting to the auth-server's logout-endpoint
-
-## Sample-Auth-Server
-
-You can use the following OIDC-Sample-Server for Testing. It assumes, that your Web-App runns on http://localhost:8080.
-
-Username/Password: max/geheim
-
-## Resources
-
-- Sample for using this lib: https://github.com/manfredsteyer/angular2-rc1-sample
-- Sources of this lib: https://github.com/manfredsteyer/angular2-oauth2
-
-## Usage
-
-Following samples use Angular 2 RC 1 with the "newest RC1-Router". For samples regarding the "BETA-Router" 
-that has been deprecated after the BETA-phase, see the [older version of this readme-file](https://github.com/manfredsteyer/angular2-oauth2/blob/master/beta-readme.md).
+Library for handling reference token
 
 ### Setup Provider for OAuthService
 
